@@ -9,4 +9,3 @@ int main(){
    cout << text << endl; 
    return 0;
 }
-
