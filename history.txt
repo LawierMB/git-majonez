@@ -1,0 +1,230 @@
+    1  sudo apt-get install gcc g++ dkms
+    2  less
+    3  dir
+    4  ls
+    5  ls -f
+    6  ls --help
+    7  wc
+    8  bash
+    9  less
+   10  les
+   11  vim ~/.bashrc
+   12  sudo apt install vim 
+   13  vim ~/.bashrc
+   14  echo export PS1=\"$PS1 \" >> ~/.bashrc
+   15  bash
+   16  vim ~/.bashrc
+   17  vim ~/.bashrc
+   18  ls -l
+   19  mkdir Folder1
+   20  touch Folder1/processes.txt
+   21  ls -l
+   22  cd Folder1
+   23  ls -l
+   24  ps aux < processes.txt 
+   25  ls -lrSh
+   26  less processes.txt
+   27  ps aux > processes.txt 
+   28  less processes.txt
+   29  cp processes.txt copy.txt
+   30  ls -lrSh
+   31  less copy.txt
+   32  mkdir backup
+   33  mv copy.txt bckup/
+   34  mv copy.txt backup/
+   35  cd backup
+   36  ls
+   37  cd ..
+   38  ls
+   39  wc -l processes.txt 
+   40  wc -l processes.txt > selected.txt
+   41  ls
+   42  less selected.txt 
+   43  grep -n "/Bin" processes.txt 
+   44  less processes.txt 
+   45  grep -n "*/Bin*" processes.txt 
+   46  grep -rni /bin *
+   47  grep -rni /bin * >> selected.txt 
+   48  ls -lrSh 
+   49  less selected.txt 
+   50  h
+   51  history | grep mkdir
+   52  tail --help
+   53  history | tail -n31
+   54  history | tail -n35
+   55  history | tail -n37
+   56  history
+   57  mkdir folder1
+   58  ls
+   59  cd folder1
+   60  touch processes.txt
+   61  ls
+   62  ps aux > processes.txt
+   63  cp processes.txt copy.txt
+   64  ls
+   65  mkdir backup
+   66  mv copy.txt backup/
+   67  wc -l processes.txt > selected.txt
+   68  grep -n "/bin"  processes.txt >> selected.txt
+   69  history
+   70  history | tail -n14 > commands.txt
+   71  cat selected.txt commands.txt 
+   72  history
+   73  history | tail -n17 > commands.txt
+   74  clear
+   75  cat selected.txt commands.txt 
+   76  grep  "/bin" processes.txt
+   77  grep -n "/bin" processes.txt
+   78  grep  "/bin" processes.txt
+   79  clear
+   80  cat selected.txt commands.txt 
+   81  ls
+   82  cd folder1
+   83  ls
+   84  history
+   85  cat processes.txt 
+   86  cat copy.txt 
+   87  ls
+   88  less copy.txt
+   89  cat selected.txt 
+   90  grep -rni /bin processes.txt >> selected.txt
+   91  cat selected.txt 
+   92  cat commands.txt 
+   93  cd\
+   94  ls
+   95  cd folder1
+   96  ls
+   97  cat selected.txt 
+   98  clear
+   99  cd ..
+  100  cd folder1
+  101  cat processes.txt 
+  102  cat selected.txt 
+  103  cat commands.txt 
+  104  cd backup
+  105  ls
+  106  cd ..
+  107  cat selected.txt 
+  108  cd workspace
+  109  ls
+  110  cd git-majonez/
+  111  ls
+  112  git statu
+  113  git status
+  114  git log
+  115  git reset --hard cd6cdf794ae
+  116  git log
+  117  git branch
+  118  git checkout cs
+  119  ls
+  120  git log
+  121  cat main.cpp 
+  122  git checkout master
+  123  ls
+  124  cat main.cpp 
+  125  git log
+  126  git show
+  127  git checkout cs
+  128  ls
+  129  git log
+  130  git show
+  131  git status
+  132  gitk&
+  133  git checkout master
+  134  git checkout cs
+  135  git status
+  136  git log
+  137  git diff master...cs
+  138  git status
+  139  git checkout master
+  140  git diff master..cs
+  141  ls
+  142  git branch
+  143  git merge cs
+  144  git mergetool
+  145  git status
+  146  vim main.cpp
+  147  git status
+  148  git merge --abort
+  149  git status
+  150  git log
+  151  cat main.cpp
+  152  ls
+  153  git branch
+  154  ls
+  155  rm main_*.cpp
+  156  ls
+  157  git status
+  158  git merge cs
+  159  vim main.cpp 
+  160  git commit -m"merge branch"
+  161  git add main.cpp 
+  162  git status
+  163  git commit -m"merge branch 'cs'"
+  164  git status
+  165  history > history.txt
+  166  git status
+  167  git add .
+  168  git status
+  169  git commit -m"History added"
+  170  git log
+  171  git ststus
+  172  git log
+  173  git diff
+  174  ls
+  175  git push orgin --force
+  176  git pusch
+  177  git push
+  178  git push --force
+  179  git log
+  180  git reset --hard 6ab079f4e3
+  181  git status
+  182  cat main.cpp 
+  183  git diff master..cs
+  184  git branch
+  185  git checkout cs
+  186  ls
+  187  cat main.cpp 
+  188  git checkout master
+  189  cat main.cpp 
+  190  git branch
+  191  git log
+  192  git status
+  193  git log
+  194  clear
+  195  git log
+  196  gir reset --hard 79fab8bf5b4c5
+  197  git reset --hard 79fab8bf5b4c5
+  198  git status
+  199  git branch
+  200  cat main.cpp 
+  201  vim main.cpp 
+  202  git status
+  203  git show
+  204  git status
+  205  git add main.cpp 
+  206  git status
+  207  git show
+  208  git commit -m"Farewell changed"
+  209  git status
+  210  git log
+  211  git show
+  212  git status
+  213  git checkout cs
+  214  git status
+  215  git log
+  216  git checkout master
+  217  git log
+  218  git merge cs
+  219  vim main.cpp 
+  220  git status
+  221  git add main.cpp 
+  222  history > history.txt
+  223  git status
+  224  rm history.txt 
+  225  ls
+  226  git status
+  227  git commit -m"Merge branch 'cs'"
+  228  git log
+  229  git show
+  230  history > history.txt
