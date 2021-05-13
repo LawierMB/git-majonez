@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-   cout << "Hello Coders School \n";
+   cout << "Hello Coders School" << endl;
    string text;
    getline(cin, text);
    cout << text << endl; 
